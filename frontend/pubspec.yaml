@@ -1,0 +1,46 @@
+name: messenger
+description: A beautiful dark-themed messenger app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP and WebSocket
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+  
+  # Local storage
+  shared_preferences: ^2.2.0
+  
+  # JWT
+  jwt_decoder: ^2.0.1
+  
+  # Image and file picking
+  image_picker: ^1.0.0
+  video_player: ^2.7.0
+  
+  # UI enhancements
+  intl: ^0.19.0
+  cached_network_image: ^3.3.0
+  
+  # State management
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
