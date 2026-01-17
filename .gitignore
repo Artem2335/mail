@@ -1,0 +1,107 @@
+# Go binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+messenger.db
+
+# Uploaded files
+uploads/
+
+# Go mod cache
+go.mod.tidy
+go.sum.tidy
+
+# Flutter/Dart/Pub specific
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# iOS/macOS
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vscode/c_cpp_properties.json
+**/ios/**/.vscode/launch.json
+**/ios/**/.vscode/extensions.json
+**/ios/**/.idea/workspace.xml
+**/ios/**/.idea/tasks.xml
+**/ios/**/.idea/gradle.xml
+**/ios/**/.idea/dictionaries
+**/ios/**/.idea/vcs.xml
+**/ios/**/.idea/jsLibraryMappings.xml
+**/ios/**/.idea/modules.xml
+**/ios/**/.idea/misc.xml
+**/ios/**/*.jks
+**/ios/**/*.keystore
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.modulemap
+**/ios/Flutter/GeneratedPluginRegistrant.java
+**/ios/Flutter/flutter_root
+**/ios/Flutter/flutter_assets
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/.dart_tool
+
+# Android/Gradle specific
+**/android/gradle
+**/android/.gradle
+**/android/captures
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/*.keystore
+**/android/*.jks
+
+# macOS
+macOS/Flutter/Flutter-Release.xcconfig
+macOS/Flutter/Flutter-Debug.xcconfig
+macOS/Flutter/GeneratedPluginRegistrant.swift
+macOS/Flutter/.last_build_id
+
+# Coverage
+coverage/
+lcov.info
+
+# Web
+web/.dart_tool/
+web/packages
