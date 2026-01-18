@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/Artem2335/mail/backend/db"
 	"github.com/Artem2335/mail/backend/handlers"
+	"github.com/Artem2335/mail/backend/middleware"
 	"github.com/gin-gonic/gin"
 	"log"
 )
@@ -29,7 +30,7 @@ func main() {
 
 	// Protected routes (auth required)
 	protected := router.Group("/api")
-	protected.Use(AuthMiddleware())
+	protected.Use(middleware.AuthMiddleware())
 	{
 		// Profile routes
 		protected.GET("/profile/:id", handlers.GetProfile)
