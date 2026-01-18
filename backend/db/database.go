@@ -1,7 +1,6 @@
 package db
 
 import (
-	"fmt"
 	"github.com/Artem2335/mail/backend/models"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
