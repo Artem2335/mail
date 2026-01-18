@@ -10,7 +10,8 @@ import (
 var DB *gorm.DB
 
 func InitDB() {
-	db, err := gorm.Open(sqlite.Open("messenger.db"), &gorm.Config{})
+	// Using modernc.org/sqlite driver (CGO-free)
+	db, err := gorm.Open(sqlite.Open("file:messenger.db?cache=shared"), &gorm.Config{})
 	if err != nil {
 		log.Fatal("Failed to connect to database:", err)
 	}
