@@ -1,7 +1,6 @@
 package handlers
 
 import (
-	"fmt"
 	"github.com/Artem2335/mail/backend/db"
 	"github.com/Artem2335/mail/backend/models"
 	"github.com/gin-gonic/gin"
