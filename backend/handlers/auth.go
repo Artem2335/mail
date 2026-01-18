@@ -8,7 +8,6 @@ import (
 	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
-	"os"
 	"time"
 )
 
